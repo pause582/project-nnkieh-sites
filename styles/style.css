@@ -1,3 +1,69 @@
 .waring {
   color: red;
+  padding: 10px;
+  color: Red;
+}
+
+.navContainer {
+  border: 2px solid black;
+  width: 50%; /*The percentage of the whole page width*/
+  height: 10%;
+}
+
+.HomepageButton {
+  padding: 50px; /*The atsusa of the box*/
+  width: calc(39% - 30px);
+  background-color: gray;
+  color: white;
+}
+
+.AboutButton {
+  padding: 50px; /*The atsusa of the box*/
+  width: calc(39% - 30px);
+  background-color: red;
+  color: white;
+}
+.AuthorButton {
+  padding: 50px; /*The atsusa of the box*/
+  width: calc(39% - 30px);
+  background-color: green;
+  color: white;
+}
+.DownloadButton {
+  padding: 50px; /*The atsusa of the box*/
+  width: calc(39% - 30px);
+  background-color: blue;
+  color: white;
+}
+.OtherButton {
+  padding: 50px; /*The atsusa of the box*/
+  width: calc(39% - 30px);
+  background-color: yellow;
+  color: gray;
+}
+main{
+	background-color: white;
+	margin-left: 5%;
+	width: calc(90%);
+	opacity: 80%;
+}
+
+body {
+  background-image: url(../images/intro.png);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+header{
+	background-color: white;
+	margin-left: 5%;
+	width: calc(90%);
+	opacity: 80%;
+}
+
+nav{
+	background-color: white;
+	margin-left: 5%;
+	width: calc(90%);
+	opacity: 100%;
 }
