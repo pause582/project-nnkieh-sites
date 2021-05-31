@@ -4,66 +4,89 @@
   color: Red;
 }
 
-.navContainer {
-  border: 2px solid black;
-  width: 50%; /*The percentage of the whole page width*/
-  height: 10%;
+nav ul {
+  margin: auto;
+  display: flex;
+  list-style: none;
 }
 
-.HomepageButton {
-  padding: 50px; /*The atsusa of the box*/
-  width: calc(39% - 30px);
-  background-color: gray;
-  color: white;
+.links-list a {
+  text-align: center;
+  display: flex;
+  font-size: 150%;
+  background-color: rgb(179,57,81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
 }
 
-.AboutButton {
-  padding: 50px; /*The atsusa of the box*/
-  width: calc(39% - 30px);
-  background-color: red;
-  color: white;
+.intro {
+	font-size: 100%;
+	margin-top: 10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	/*padding-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;*/
 }
-.AuthorButton {
-  padding: 50px; /*The atsusa of the box*/
-  width: calc(39% - 30px);
-  background-color: green;
-  color: white;
+.intro iframe{
+	display: block;
+	margin:auto;
+	/*padding-left:15%;*/
 }
-.DownloadButton {
-  padding: 50px; /*The atsusa of the box*/
-  width: calc(39% - 30px);
-  background-color: blue;
-  color: white;
+.intro h1{
+	text-align: center;
 }
-.OtherButton {
-  padding: 50px; /*The atsusa of the box*/
-  width: calc(39% - 30px);
-  background-color: yellow;
-  color: gray;
+.news {
+	padding-left: 5%;
+	padding-bottom: 5px;
+}
+.news li{
+	font-size:120%;
 }
 main{
+	
+	border-radius: 20px;
+	/*border-top-right-radius: 1em;*/
 	background-color: white;
 	margin-left: 5%;
 	width: calc(90%);
-	opacity: 80%;
+	opacity: 90%;
 }
 
 body {
-  background-image: url(../images/intro.png);
-  background-repeat: repeat-y;
+	
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.5)), url("../images/background.png");
+  /*background-image: url(../images/background.png);*/
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
 header{
+	font-size:110%;
+	text-align: center;
+	border-radius: 20px;
 	background-color: white;
 	margin-left: 5%;
 	width: calc(90%);
-	opacity: 80%;
+	opacity: 90%
 }
 
 nav{
-	background-color: white;
+	display: flex;
+	/*background-color: white;*
 	margin-left: 5%;
 	width: calc(90%);
-	opacity: 100%;
+	opacity: 100%;*/
+}
+footer p{
+	text-align: center;
+	color: #39c5bb;
 }
