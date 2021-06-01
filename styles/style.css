@@ -6,6 +6,7 @@
 
 nav ul {
   margin: auto;
+  /*padding-bottom: 10px;*/
   display: flex;
   list-style: none;
 }
@@ -13,11 +14,12 @@ nav ul {
 .links-list a {
   text-align: center;
   display: flex;
-  font-size: 150%;
+  font-size: 120%;
   background-color: rgb(179,57,81);
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
+  width: 2e,;
 }
 .links-list a:hover {
   background-color: rgb(66, 28, 40);
@@ -27,7 +29,6 @@ nav ul {
 .intro {
 	font-size: 100%;
 	margin-top: 10px;
-	padding-top:5px;
 	padding-bottom:5px;
 	/*padding-top: 10px;
 	display: block;
@@ -43,18 +44,28 @@ nav ul {
 .intro h1{
 	text-align: center;
 }
-.news {
+.inside {
 	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 5px;
 }
-.news li{
-	font-size:120%;
+.inside li{
+	font-size:100%;
 }
+.inside dl{
+	padding-left:20px;
+}
+.inside p{
+	padding-left:20px;
+}
+
 main{
 	
-	border-radius: 20px;
+	padding-top: 5px;
+	border-radius: 10px;
 	/*border-top-right-radius: 1em;*/
 	background-color: white;
+	margin-top: 10px;
 	margin-left: 5%;
 	width: calc(90%);
 	opacity: 90%;
@@ -72,9 +83,12 @@ body {
 header{
 	font-size:110%;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: white;
 	margin-left: 5%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
 	width: calc(90%);
 	opacity: 90%
 }
