@@ -5,229 +5,259 @@
 		<meta property="og:image" content="images/intro.png"> <!--Image preview for Facebook, add a png file!-->
 		<meta property="og:description" content="Project NNKIEH is a project to recreate National Nanke International Experimental High school, a high school
 		in Taiwan, Tainan, by using Minecraft."> <!--Description preview for Facebook, let's type in Mandarin-->
-		<meta property="og:title" content="About - Project NNKIEH"> <!--Title preview for Facebook-->
+		<meta property="og:title" content="Project NNKIEH home page"> <!--Title preview for Facebook-->
 		
-		<meta name="twitter:title" content="About - Project NNKIEH"> <!--Title preview for Twitter-->
+		<meta name="twitter:title" content="Project NNKIEH home page"> <!--Title preview for Twitter-->
 		
 		<meta charset="utf-8">
 		<meta name="author" content="Ayuki">
-		<meta name="description" content="Project NNKIEH about page.
+		<meta name="description" content="Project NNKIEH home page.
 		Project NNKIEH is a project to recreate National Nanke International Experimental High school, a high school
 		in Taiwan, Tainan, by using Minecraft.">
 		
-		<title>About - Project NNKIEH</title>
+		<title>Project NNKIEH Homepage</title>
+		<link rel="stylesheet" href="styles/header.css" type="text/css">
 		<link rel="stylesheet" href="styles/style.css" type="text/css">
-		
+		<link rel="stylesheet" href="styles/common.css" type="text/css">
+
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon144.png"> 
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon114.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon72.png">
 		<link rel="apple-touch-icon-precomposed" href="images/icon57.png">
 		<link rel="shortcut icon" href="images/icon128.png">
 	</head>
-	<body>
-		<header>
-			<h1><strong>Project NNKIEH</strong></h1>
-			<h2>關於本計畫 About Project NNKIEH</h2>
-		</header>
-		<nav>
-			<ul class="links-list">
-				<li class="b_hp"><a href="index.html">首頁<br>Homepage</a></li>
-				<li class="b_or"><a href="about_project.html">關於計畫<br>About Project NNKIEH</a></li>
-				<li class="b_or"><a href="about_author.html">關於作者<br>About Author</a></li>
-				<li class="b_or"><a href="download.html">下載與安裝<br>Download</a></li>
-				<li class="b_or"><a href="others.html">其他<br>Others</a></li>
+
+<body class="common_body">
+
+
+<header id="header">
+	<nav id="nav">
+	<p class="header_logo">
+		<a href="index.html">Project NNKIEH</a>
+	</p>
+	<div class="header_menu">	
+		<ul class="header_menu_hide">
+			<li class="menu_button">
+				<a href="about_project.html">
+					<p class="icon">
+					關於<br>About
+					</p>
+				</a>
+			</li>
+			<li class="menu_button">
+				<a href="album.html">
+					<p class="icon">
+					相簿<br>Album</p>
+				</a>
+			</li>
+			<li class="menu_button">
+				<a href="download.html">
+					<p class="icon">
+					下載與安裝<br>Download</p>
+				</a>
+			</li>
+			<li class="menu_button">
+				<a href="about_author.html">
+					<p class="icon">
+					作者<br>Author</p>
+				</a>
+			</li>
+		</ul>
+		<div class="header_sidemenu">
+			<ul class="language_menu">
+				<li>
+					<p class="language_off_menu" onclick="clickLanguageMenu()">Language</p>
+					<ul class="language_menu_inner" id="language_list">
+						<li><a href="">繁體中文</a></li>
+						<li><a href="">日本語</a></li>
+					</ul>
+				</li>
 			</ul>
-		</nav>
-		<main>
-			<div class="inside">
-			
-			<h1 id="what">什麼是Project NNKIEH ?</h1>
-			<img src="images/intro.png" width="960">
-				
-				<br>
-				<h2>「Project NNKIEH」 是致力於使用Minecraft建造一個備份南科實中的計畫。</h2>
-				
-				<p>
-				在Minecraft確實重現的虛擬南科實中，
-				來源於創作者確實的走過，利用360°全景相機紀錄每一個你還未注意到的角落，
-				這個既熟悉又陌生的校園在等待你來探索。
-				<br><br>2021年，因疫情影響，不論是在校生還是校友都因此無法回到學校交流與敘舊。
-				2020年初，Project NNKIEH開始進行，在2021年終於宣告階段性的完成，成為大家可以相遇的平台。
-				1:1等比例建造的虛擬校園就如同真實校園一般，藏著許多屬於我們的回憶小彩蛋，
-				甚至還存在著繼續發展擴充的可塑性，每個人都可以發揮更大的想像力，繼續創造屬於自己的南科故事！
-				</p>
-				<h2><strong>因視覺而感念，因存在過而記憶著。諸君，盡情的跑班吧！</strong></h2>
+		</div>
+	
+	</div>
+	</nav>
+</header>
+
+
+<div class="pagetitle">
+	<h1>關於本計畫</h1>
+	<h2>About Project NNKIEH</h2>
+</div>
+
+<section class="common_section">
+	<div class="wrap">
+		<div class="content">	
+			<h2>Project NNKIEH 是什麼</h2>
 			<hr>
-			<h2>特色 Feature</h2>
-				<ul>
-					<li>依照真實比例建造，彷彿置身校園。</li>
-					<li>樹木輪廓與位置精確，重現跑班魅力。	</li>
-					<li>電燈、鐵門可開可控，晚上加課沒問題。</li>
-					<li>電梯可實際運作，實踐無障礙環境。</li>
-					<li>被拆除的木棧道回來了!</li>
-					<li>頂樓、密道、地下室等現實無法探索的地方也可以去!</li>
-					<li>教室彩蛋與隱藏笑話，等你發現。</li>
-					<li>生物實驗室有兩間。</li>
-					<li>隱藏的地下二樓...?</li>
-					<li>etc..</li>
-				</ul>
-			<h2>貢獻與感謝 Credit &amp Thanks</h2>
-				<p>沒有你們的支持與協助，就不會有這個計畫。</p>
-				<dl> <!--Description List-->
-					<dt>原作</dt>
-						<dd>劉木賢建築師事務所-國立南科國際實驗高級中學　高中部校舍</dd>
-					<dt>計畫負責人</dt>
-						<dd>あゆき(江旻洋)</dd>
-					<dt>建造</dt>
-						<dd>あゆき(江旻洋)</dd>
-						<dd>喵古米爾</dd>
-					<dt>攝影取材</dt>
-						<dd>あゆき(江旻洋)</dd>
-						<dd>Hale Lin(林廷翰)</dd>
-						<dd>喵古米爾</dd>
-					<dt>攝影協力</dt>
-						<dd>ナユ</dd>
-						<dd>Hale Lin(林廷翰)</dd>
-						<dd>喵古米爾</dd>
-						<dd>莊曜嘉</dd>
-						<dd>劉昀姍老師</dd>
-					<dt>參考照片提供</dt>
-						<dd>Hale Lin(林廷翰)</dd>
-						<dd>Morgan(楊淞甫)</dd>
-						<dd>Satsuki</dd>
-						<dd>李傑庭</dd>
-						<dd>簡芷嫺</dd>
-						<dd>張毓洪老師</dd>
-						<dd>蔡汶鴻老師</dd>
-					<dt>校園地圖提供</dt>
-						<dd>張毓洪老師</dd>
-					<dt>校園測量協力</dt>
-						<dd>ナユ</dd>
-						<dd>Hale Lin(林廷翰)</dd>
-					<dt>計畫支持、指導</dt>
-						<dd>Hale Lin(林廷翰)</dd>
-						<dd>Morgan(楊淞甫)</dd>
-						<dd>楊念瑤</dd>
-						<dd>江旻修學長</dd>
-						<dd>蔡汶鴻老師</dd>
-					<dt>110th 畢業歌《拾光》MV 剪輯</dt>
-						<dd>Hale Lin(林廷翰)</dd>
-					<dt>工作時的BGM擔當</dt>
-						<dd>初音ミク &amp 他的好朋友</dd>
-					<dt>網頁製作</dt>
-						<dd>あゆき(江旻洋)</dd>
-					<dt>計畫介紹文字</dt>
-						<dd>Hale Lin(林廷翰)</dd>
-					<dt>特別感謝</dt>
-						<dd>王志誦老師</dd>
-						<dd>蘇聖雄老師</dd>
-						<dd>南科實中全體同仁</dd>
-						<dd>Mojang Studios</dd>
-				</dl>
-				<p>如有疏漏或錯誤，請來信指教，感謝!</p>
-		<hr>	
-			<h1>關於南科實中 About NNKIEH</h1>
-			<h2>國立南科國際實驗高級中學 National Nanke International Experimental High School </h2>
-			
-			<p>為一所位於台南科學園區內的實驗中學，創校的目的在於提供科學園區員工子女優質的教育環境，
-			並為南科與地方發展奠定教育基礎。
-			<br><br>
-			本校前身為臺南縣立南科國民中學與南科國民小學，
-			南科國中自86年籌設，南科國小自87年籌設，由呂昌道先生擔任籌備主任及校長。
-			民國95年8月1日改制成為「國立南科國際實驗高級中學」，整併原南科國中、
-			國小，分別設立國小部和國中部，由戴旭璋博士擔任首任校長。97學年起設立高中部，南科實中成為四部共榮的實驗學校，
-			現任校長為秦文智先生。
-			<br><br>
-			目前學校包括高中部12班、國中部23班、國小部44班、雙語部12班，為國內鮮有的四部一體的體制。
-			校園腹地寬廣占地10.2公頃；校園建築設計新穎，處處展現對環境保護及生態之重視。
-			繼國中部校舍獲頒「綠建築」標章後，於2010年完工的高中部校舍，更榮耀2座「鑽石級綠建築標章」之殊榮，
-			成為全國第一所榮獲此項標章的學校，提供師生一個節能減碳、綠意盎然、生態豐富的學習環境。各項建築設計符合教育理念，
-			高中部及雙語部採用專科教室跑班方式，讓教師充分發揮學科教室的功能，提升學習效果。
-			<br><br>
-			全校設置兩座圖書館，並設立遠見國際會議廳、資訊科技實驗室、創意工廠等空間，提供學生各項活動、會議、科學研究之場所。
-			寬廣的運動場、多功能體育館、網球場等設施，提供學生寬敞舒適的運動空間。校園公共藝術「迎向未來」及「巨人花粉」，
-			分別由知名藝術家賴純純及曾英棟創作，趣味的造型意涵深遠，融入本校設校精神，亦為校園增添濃厚的藝術氣息。
-			</p>
-			
-			<p>※ 以上文字節錄自 南科實中沿革 - 國立南科國際實驗高級中學官網</p>
-		<hr>
-		<h1>相片集 Album</h1>
-		<div class="Album">
-				<div class="gallery">
-				<a target="_blank" href="images/album/01.png">
-					<img src="images/album/01.png" alt="01" width="600" height="400">
-				</a>
-				<div class="desc">圖書館側大門</div>
-				</div>
+			<h3>Project NNKIEH</h3>
+			<p>「Project NNKIEH」 是致力於使用Minecraft建造一個備份南科實中的計畫。</p>
+			<p>本計畫可追朔至2019年，作者試圖使用Minecraft建造南科實中卻半途而廢的專案。2020年開始有組織的同時進行測量、蒐集參考資料、實景拍攝等工作。在2021年夏天完成建造工作，同時發布第一版官方網站，並且獲得110級畢業生採用製作畢業歌《拾光》特別版MV。 </p>
+			<h3>Project NNKEIH feat. Hatsune Miku</h3>
+			<p>2023年，作者使用歌聲和成軟體「初音未來」翻唱110級畢業歌《拾光》之專案，稱之為「Project NNKIEH feat. Hatsune Miku」。伴隨著新專案的進行，官網翻新以及地圖檔更新等工作也同時啟動。</p>
+			<h3>特色</h3>
+			<ul>
+				<li>仿真比例建造，重現跑班魅力。</li>
+				<li>樹木形狀與位置精確，彷彿置身校園。</li>
+				<li><strike>電燈、鐵門可開可控，晚上加課沒問題。</strike></strike></li>
+				<li><strike>電梯可實際運作，實踐無障礙環境。</strike></li>
+				<li>重現木棧道等被拆除之設施。</li>
+				<li>頂樓、密道、地下室等禁區忠實呈現。</li>
+				<li>教室彩蛋與隱藏笑話。</li>
+				<li>生物實驗室有兩間。</li>
+				<li>隱藏的地下二樓...?</li>
+				<li>etc..</li>
+			</ul>
+			<h3>因視覺而感念，因存在過而記憶著。諸君，盡情的跑班吧！</h3>
+		</div>
+	</div>
+</section>
 
-				<div class="gallery">
-				<a target="_blank" href="images/album/02.png">
-					<img src="images/album/02.png" alt="Forest" width="600" height="400">
-				</a>
-				<div class="desc">生態池(X 生日池(O</div>
-				</div>
-
-				<div class="gallery">
-				<a target="_blank" href="images/album/03.png">
-				<img src="images/album/03.png" alt="Northern Lights" width="600" height="400">
-				</a>
-				<div class="desc">柳樹</div>
-				</div>
-
-				<div class="gallery">
-				<a target="_blank" href="images/album/04.png">
-				<img src="images/album/04.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">圖書館側門</div>
-				</div>
-				
-				<div class="gallery">
-				<a target="_blank" href="images/album/05.png">
-				<img src="images/album/05.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">毋負今日</div>
-				</div>
-				
-				<div class="gallery">
-				<a target="_blank" href="images/album/06.png">
-				<img src="images/album/06.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">南科實中戰備糧食</div>
-				</div>
-				
-				<div class="gallery">
-				<a target="_blank" href="images/album/07.png">
-				<img src="images/album/07.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">圖書館小徑</div>
-				</div>
-				
-				<div class="gallery">
-				<a target="_blank" href="images/album/08.png">
-				<img src="images/album/08.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">4F班基書庫</div>
-				</div>
-				
-				<div class="gallery">
-				<a target="_blank" href="images/album/09.png">
-				<img src="images/album/09.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">實驗室頂樓</div>
-				</div>
-				
-				<div class="gallery">
-				<a target="_blank" href="images/album/10.png">
-				<img src="images/album/10.png" alt="Mountains" width="600" height="400">
-				</a>
-				<div class="desc">4F角落</div>
-				</div>
+<section class="common_section">
+	<div class="wrap">
+		<div class="content">	
+			<h2>歌曲</h2>
+			<hr>
+			<h3>南科實中110th畢業歌《拾光》"Project NNKIEH" ver.</h3>
+			<div class="video">
+				<iframe width="960" height="540" src="https://www.youtube.com/embed/eHv-X9SKYOc" 
+				frameborder="0" allowfullscreen></iframe>
+			</div>
+			<br>
+			<h3>【初音未來】光拾い【Cover】</h3>
+			<div class="video">
+				<iframe width="960" height="540" src="https://www.youtube.com/embed/eHv-X9SKYOc" 
+				frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="YTLink"><a href="">→ Youtube版連結</a></div>
+			<p>■ Midi、日文歌詞、Vocaloid調音、MV製作：江旻洋</p>
+			<p>■ 吉他重新編曲：江旻修</p>
+			<p>■ 日文版歌詞：</p>
+			<div class="lyric">
+			<p>「ほら　購買部へ行こうよ」</p>
+			<p>	「もう　腹ペコペコだよ」</p>
+			<p>	太くて可愛くて</p>
+			<p>	アヒルにおはよう</p>
+			<p>	教室が田んぼに囲まれ</p>
+			<p>	天気いい時　山も見える</p>
+			<p>	体育　は大変だけれど</p>
+			<p>	学んだ　「覚悟」を</p>
+			<p>-----------------------------</p>
+			<p>	Don't be afraid of the night.</p>
+			<p>	Follow me into the light.</p>
+			<p>I'll always be your guide.</p>
+			<p>	----------------------------------</p>
+			<p>	暗闇に　差した光が</p>
+			<p>僕たちに　未来へ導く</p>
+			<p>未体験の青春は　僕たちの時間</p>
+			<p>夢抱えて　舞台で光ってる</p>
+			<p>--------------------------------------</p>
+			<p>帰り道　君と一緒に</p>
+			<p>いつも　遅れた電車</p>
+			<p>最初　楽しかったのに</p>
+			<p>最後　試験ばかり</p>
+			<p>現実　はどんなに不安</p>
+			<p>未来　崩れそうな予感</p>
+			<p>希望　を持って前を向け</p>
+			<p>後悔　したくないだけ</p>
+			<p>------------------------------------</p>
+			<p>Look on the bright side of life.</p>
+			<p>Everything will be alright.</p>
+			<p>Tomorrow will be fine.</p>
+			<p>--------------------------------------</p>
+			<p>青春の音符を　今が奏でよう</p>
+			<p>どんな困難でも</p>
+			<p>きっと大丈夫だよ</p>
+			<p>勇気を出せ　輝いて　たとえ </p>
+			<p>世界崩壊でも　君のそばに...</p>
+			<p>いるよ</p>
 			</div>
 		</div>
-		</main>
-		<footer>
-			<p>Hatsune Miku 是我們永遠的好朋友。20210602</p>
-		</footer>
-		<script src=""></script> <!--For js , add here.-->
-	</body>
+	</div>
+</section>
+
+<section class="common_section">
+	<div class="wrap">
+		<div class="content">	
+			<h2>關於南科實中 About NNKIEH</h2>
+			<hr>
+			<h3>國立南科國際實驗高級中學 National Nanke International Experimental High School </h3>
+			<p>為一所位於台南科學園區內的實驗中學，創校的目的在於提供科學園區員工子女優質的教育環境， 並為南科與地方發展奠定教育基礎。 </p>
+			<p>本校前身為臺南縣立南科國民中學與南科國民小學， 南科國中自86年籌設，南科國小自87年籌設，由呂昌道先生擔任籌備主任及校長。 民國95年8月1日改制成為「國立南科國際實驗高級中學」，整併原南科國中、 國小，分別設立國小部和國中部，由戴旭璋博士擔任首任校長。97學年起設立高中部，南科實中成為四部共榮的實驗學校， 現任校長為蔡明輝先生。 </p>
+			<p>目前學校包括高中部12班、國中部24班、國小部46班、雙語部12班，為國內鮮有的四部一體的體制。 校園腹地寬廣占地10.2公頃；校園建築設計新穎，處處展現對環境保護及生態之重視。 繼國中部校舍獲頒「綠建築」標章後，於2010年完工的高中部校舍，更榮耀2座「鑽石級綠建築標章」之殊榮， 成為全國第一所榮獲此項標章的學校，提供師生一個節能減碳、綠意盎然、生態豐富的學習環境。各項建築設計符合教育理念， 高中部及雙語部採用專科教室跑班方式，讓教師充分發揮學科教室的功能，提升學習效果。</p>
+			<p>全校設置兩座圖書館，並設立遠見國際會議廳、資訊科技實驗室、創意工廠等空間，提供學生各項活動、會議、科學研究之場所。 寬廣的運動場、多功能體育館、網球場等設施，提供學生寬敞舒適的運動空間。校園公共藝術「迎向未來」及「巨人花粉」， 分別由知名藝術家賴純純及曾英棟創作，趣味的造型意涵深遠，融入本校設校精神，亦為校園增添濃厚的藝術氣息。 </p>
+			<p>※ 以上文字節錄自 <a href="https://hs.nnkieh.tn.edu.tw/modules/tadnews/page.php?nsn=1">南科實中沿革 - 國立南科國際實驗高級中學官網</a></p>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="wrap">
+		<h3>原作</h3>
+		<div class="name_list">
+		<span>劉木賢建築師事務所-國立南科國際實驗高級中學　高中部校舍</span>
+		</div>
+		<h3>專案負責人</h3>
+		<div class="name_list">
+		<span>江旻洋</span>
+		</div>
+		<h3>協力</h3>
+		<div class="name_list">
+			<span>江旻洋</span>
+			/
+			<span>喵古米爾</span>
+			/
+			<span>Hale Lin(林廷翰)</span>
+			/
+			<span>ナユ</span>
+			/
+			<span>莊曜嘉</span>
+			/
+			<span>劉昀姍老師</span>
+			/
+			<span>Morgan(楊淞甫)</span>
+			/
+			<span>Satsuki</span>
+			/
+			<span>李傑庭</span>
+			/
+			<span>簡芷嫺</span>
+			/
+			<span>張毓洪老師</span>
+			/
+			<span>蔡汶鴻老師</span>
+			/
+			<span>楊念瑤</span>
+			/
+			<span>江旻修學長</span>
+			/
+			<span>初音ミク & her friends</span>
+		</div>
+		<h3>特別感謝</h3>
+		<div class="name_list">
+			<span>王志誦老師</span>
+			/
+			<span>蘇聖雄老師</span>
+			/
+			<span>南科實中全體同仁</span>
+			/
+			<span>Mojang Studios</span>
+		</div>
+		<p>Hatsune Miku 是我們永遠的好朋友。20230330</p>
+	</div>
+	
+</footer>
+
+<script>
+	function clickLanguageMenu(){
+		var x = document.getElementById("language_list");
+		if(x.style.display == "block"){
+			x.style.display = "none";
+		}else{
+			x.style.display = "block";
+		}
+	}
+</script> <!--For js , add here.-->
+
+</body>
 </html> 

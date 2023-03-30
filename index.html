@@ -16,59 +16,179 @@
 		in Taiwan, Tainan, by using Minecraft.">
 		
 		<title>Project NNKIEH Homepage</title>
+		<link rel="stylesheet" href="styles/header.css" type="text/css">
 		<link rel="stylesheet" href="styles/style.css" type="text/css">
-		
+
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon144.png"> 
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon114.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon72.png">
 		<link rel="apple-touch-icon-precomposed" href="images/icon57.png">
 		<link rel="shortcut icon" href="images/icon128.png">
 	</head>
-	<body>
-		<header>
-			<h1>Welcome to <strong>Project NNKIEH</strong> !</h1>
-			<h2>首頁 Homepage</h2>
-		</header>
-		<nav>
-			<ul class="links-list">
-				<li class="b_hp"><a href="index.html">首頁<br>Homepage</a></li>
-				<li class="b_or"><a href="about_project.html">關於計畫<br>About Project NNKIEH</a></li>
-				<li class="b_or"><a href="about_author.html">關於作者<br>About Author</a></li>
-				<li class="b_or"><a href="download.html">下載與安裝<br>Download</a></li>
-				<li class="b_or"><a href="others.html">其他<br>Others</a></li>
+<body>
+
+<div id="index_visual"> <!-- Main picture as background-->
+	<div class="main_visual"></div>
+</div>
+
+
+<header id="header">
+	<nav id="nav">
+	<p class="header_logo">
+		<a href="index.html">Project NNKIEH</a>
+	</p>
+	<div class="header_menu">	
+		<ul class="header_menu_hide">
+			<li class="menu_button">
+				<a href="about_project.html">
+					<p class="icon">
+					關於<br>About
+					</p>
+				</a>
+			</li>
+			<li class="menu_button">
+				<a href="others.html">
+					<p class="icon">
+					相簿<br>Album</p>
+				</a>
+			</li>
+			<li class="menu_button">
+				<a href="download.html">
+					<p class="icon">
+					下載與安裝<br>Download</p>
+				</a>
+			</li>
+			<li class="menu_button">
+				<a href="about_author.html">
+					<p class="icon">
+					作者<br>Author</p>
+				</a>
+			</li>
+		</ul>
+		<div class="header_sidemenu">
+			<ul class="language_menu">
+				<li>
+					<p class="language_off_menu" onclick="clickLanguageMenu()">Language</p>
+					<ul class="language_menu_inner" id="language_list">
+						<li><a href="">繁體中文</a></li>
+						<li><a href="">日本語</a></li>
+					</ul>
+				</li>
 			</ul>
-		</nav>
-		<main>
-		<div class="intro">
-		<strong><font color="red"><h1>祝110級同學 🎉畢業快樂🎉</h1></font></strong>
-		<h1>南科實中110th畢業歌《拾光》<br>"Project NNKIEH" ver.</h1>
+		</div>
+	
+	</div>
+	</nav>
+</header>
+
+<section id="index_top">
+	<div class="main_logo"><h1>_</h1></div>
+	<div class="wrap">
+		<div class="index_notice_news">
+			<p class="notice_title_news">最新消息 News</p>
+			<ul class="news_list">
+				<li>
+					<p class="date">2023. 03. 28</p>
+					網頁重製中
+				</li>
+				<li>
+					<p class="date">2023. 01. 01</p>
+					新年快樂
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section id="index_video">
+	<div class="wrap">
+		<div class="video_demo">	
+			<h2>【初音未來】光拾い【Cover】</h2>
 			<div class="video">
 				<iframe width="960" height="540" src="https://www.youtube.com/embed/eHv-X9SKYOc" 
-				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-				gyroscope; picture-in-picture" allowfullscreen></iframe>
+				frameborder="0" allowfullscreen></iframe>
+				
 			</div>
+			<div class="YTLink"><a href="">→ Youtube版連結</a></div>
+			<p>原作：《拾光》南科實中110級畢業歌　　日文版改編：あゆき</p>
 		</div>
-		<div class="inside">
-		<hr>
-		<h1>最新消息</h1>
-			<ul>
-				<li>2021/07/01 NNKIEH_Land 伺服器 籌備中</li>
-				<li>2021/06/02 Project NNKIEH 正式上線啦!</li>
-				<li>2021/05/31 Project NNKIEH 的網頁正在如火如荼趕工中...</li>
-				<li>2021/05/29 感謝110th畢業歌《拾光》MV使用本計畫製作，現正熱映中！
-				<br>影片連結：<a href="https://www.youtube.com/watch?v=eHv-X9SKYOc" 
-				title="南科實中110th畢業歌《拾光》"Project NNKIEH" ver.">Youtube</a>
-			</ul>
+	</div>
+</section>
+
+<section id="index_introduction">
+	<div class="wrap">
+		<h2>透過遊戲保存我們的回憶<br>使用Minecraft建造一個備份的虛擬南科實中！</h2>
+		<p>『Project NNKIEH』 是致力於使用Minecraft建造南科實中的計畫。起源於2020年，由當時的在校生江旻洋同學主導。遊戲中的高中部校舍於2021年夏天完工，官方網站也同步發表，並且獲得110級畢業生採用製作畢業歌《拾光》特別版MV。</p>
+		<p>『Project NNKIEH feat. Hatusne Miku』是利用歌聲合成軟體「初音未來」翻唱南科實中畢業歌的計畫。於2023年啟動，同樣由畢業生江旻洋主導，除了製作日文版翻唱歌曲、重製官方網站之外，也修正地圖檔的相容性。</p>
+	</div>
+</section>
+<footer>
+	<div class="wrap">
+		<h3>原作</h3>
+		<div class="name_list">
+		<span>劉木賢建築師事務所-國立南科國際實驗高級中學　高中部校舍</span>
 		</div>
-		<div id="sfc77a2jgq8fmcryn822zu1sh3mempuxqcc"></div>
-		<script type="text/javascript" src="https://counter6.stat.ovh/private/counter.js?c=77a2jgq8fmcryn822zu1sh3mempuxqcc&down=async" async>
-		</script><noscript><a href="https://www.freecounterstat.com" title="page counter">
-		<img src="https://counter6.stat.ovh/private/freecounterstat.php?c=77a2jgq8fmcryn822zu1sh3mempuxqcc" border="0" title="page counter" alt="page counter">
-		</a></noscript>
-		</main>
-		<footer>
-			<p>Hatsune Miku 是我們永遠的好朋友。20210602</p>
-		</footer>
-		<script src=""></script> <!--For js , add here.-->
-	</body>
+		<h3>專案負責人</h3>
+		<div class="name_list">
+		<span>江旻洋</span>
+		</div>
+		<h3>協力</h3>
+		<div class="name_list">
+			<span>江旻洋</span>
+			/
+			<span>喵古米爾</span>
+			/
+			<span>Hale Lin(林廷翰)</span>
+			/
+			<span>ナユ</span>
+			/
+			<span>莊曜嘉</span>
+			/
+			<span>劉昀姍老師</span>
+			/
+			<span>Morgan(楊淞甫)</span>
+			/
+			<span>Satsuki</span>
+			/
+			<span>李傑庭</span>
+			/
+			<span>簡芷嫺</span>
+			/
+			<span>張毓洪老師</span>
+			/
+			<span>蔡汶鴻老師</span>
+			/
+			<span>楊念瑤</span>
+			/
+			<span>江旻修學長</span>
+			/
+			<span>初音ミク & her friends</span>
+		</div>
+		<h3>特別感謝</h3>
+		<div class="name_list">
+			<span>王志誦老師</span>
+			/
+			<span>蘇聖雄老師</span>
+			/
+			<span>南科實中全體同仁</span>
+			/
+			<span>Mojang Studios</span>
+		</div>
+		<p>Hatsune Miku 是我們永遠的好朋友。20230330</p>
+	</div>
+	
+</footer>
+
+<script>
+	function clickLanguageMenu(){
+		var x = document.getElementById("language_list");
+		if(x.style.display == "block"){
+			x.style.display = "none";
+		}else{
+			x.style.display = "block";
+		}
+	}
+</script> <!--For js , add here.-->
+
+</body>
 </html> 

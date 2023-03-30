@@ -1,0 +1,14 @@
+
+
+ul{ 
+    background-color: aquamarine;
+    display: flex;
+    list-style: none;
+    height: 100px;
+}
+
+li{
+    display: flex;
+    align-items: center;;
+    background-color: bisque;
+}
